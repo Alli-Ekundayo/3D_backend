@@ -1,0 +1,76 @@
+# Bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.env
+*.venv
+Pipfile
+Pipfile.lock
+
+# Dependencies
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Logs and debugging
+logs/
+*.log
+*.out
+*.err
+debug.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Databases
+*.sqlite3
+*.db
+*.sqlite
+*.sql
+
+# Django/Machine Learning Specific
+*.pyc
+*.pyo
+migrations/
+instance/
+media/
+staticfiles/
+celerybeat-schedule
+__pypackages__/
+
+# Ignore VS Code, PyCharm, and other IDE files
+.vscode/
+.idea/
+*.iml
+
+# Cache and temporary files
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Ignore ML/DL models and large datasets
+models/
+checkpoints/
+*.h5
+*.ckpt
+*.tflite
+*.onnx
+*.pb
+*.pkl
+*.joblib
+*.csv
+*.json
