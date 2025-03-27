@@ -1,0 +1,10 @@
+langchain_google_genai
+langgraph
+langchain_community
+langchain
+accelerate
+gradio
+numpy
+transformers
+trimesh
+grandalf
