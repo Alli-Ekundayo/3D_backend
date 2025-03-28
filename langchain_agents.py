@@ -34,13 +34,15 @@ def should_continue(state):
         return END 
     return REFLECT
 
+
+
 graph.add_conditional_edges(GENERATE, should_continue)
 graph.add_edge(REFLECT, GENERATE)
 
 app = graph.compile()
 
-#print(app.get_graph().draw_mermaid())
-#app.get_graph().print_ascii()
+print(app.get_graph().draw_mermaid())
+app.get_graph().print_ascii()
 
 response = app.invoke(HumanMessage(content="An interior design with two sofa's and a center table"))
 

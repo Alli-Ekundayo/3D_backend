@@ -8,3 +8,5 @@ numpy
 transformers
 trimesh
 grandalf
+google
+pillow
