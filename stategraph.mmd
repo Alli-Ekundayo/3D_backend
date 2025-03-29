@@ -1,0 +1,8 @@
+stateDiagram-v2
+    [*] --> Generation
+    Generation --> Refinement
+    Refinement --> ImageGeneration
+    ImageGeneration --> AwaitingFeedback : Pause & return session_id
+    AwaitingFeedback --> ImageEditing : Feedback received
+    ImageEditing --> ThreeDRendering
+    ThreeDRendering --> [*]
